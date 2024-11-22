@@ -8,7 +8,7 @@ const ArticleDetails = () => {
     useEffect(() => {
         const fetchArticle = async () => {
             try {
-                const response = await fetch(`/api/articles/${id}`); 
+                const response = await fetch(`/https://backend-deploy-3egh.onrender.com/api/articles/${id}`); 
                 if (!response.ok) {
                     throw new Error(`Error: ${response.status} ${response.statusText}`);
                 }
