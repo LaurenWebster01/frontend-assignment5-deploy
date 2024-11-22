@@ -2,9 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import SearchForm from '.components/components/SearchForm';
-import ArticleList from '.components/components/ArticleList';
-import ArticleDetails from '.components/components/ArticleDetails';
+import SearchForm from './Components/SearchForm';
+import ArticleList from './Components/ArticleList';
+import ArticleDetails from './Components/ArticleDetails';
 
 const App = () => {
     const [articles, setArticles] = useState([]);
